@@ -95214,7 +95214,7 @@ s=8
 return A.o(t.L0.b(f)?f:A.jj(f,t.z),$async$qQ)
 case 8:m=b
 l=$.i0().gi9().h(0,"AUTH_BASE_URL")
-k=A.h(l)+"/users/"+A.h(m)+"/qr"
+k=A.h(l)+"/oauth/users/"+A.h(m)+"/qr"
 A.A("Haciendo petici\xf3n POST a: "+A.h(k))
 s=9
 return A.o(A.kW(k,null),$async$qQ)
